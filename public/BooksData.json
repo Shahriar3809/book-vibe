@@ -1,0 +1,80 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "image": "https://i.ibb.co/R0jt2Zm/pngwing-1.png",
+        "review": "To Kill a Mockingbird is a timeless classic that explores important themes such as racial injustice, morality, and the loss of innocence. Set in the fictional town of Maycomb, Alabama, during the Great Depression, the story follows Scout Finch, a young girl growing up in the segregated Southern United States. Through Scout's eyes, we witness her father, Atticus Finch, defending a black man falsely accused of raping a white woman. The novel's poignant narrative challenges readers to confront societal prejudices and encourages empathy and understanding. With its unforgettable characters and powerful message, To Kill a Mockingbird remains a must-read for readers of all ages.",
+        "totalPages": 281,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": ["Classics", "Social Issues", "Legal Drama"],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 2,
+        "bookName": "1984",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/Xjxnm3t/kindpng-1064993.png",
+        "review": "1984 by George Orwell is a dystopian novel that explores themes of totalitarianism, surveillance, and the erosion of truth. Set in a future where a totalitarian regime, led by the enigmatic Big Brother, exerts complete control over its citizens, the story follows Winston Smith, a low-ranking member of the ruling Party who rebels against its oppressive rule. Through Winston's journey, Orwell paints a chilling portrait of a society where individuality is suppressed, history is rewritten, and dissent is punished. 1984 is a stark warning against the dangers of authoritarianism and serves as a powerful reminder of the importance of freedom and truth.",
+        "totalPages": 328,
+        "rating": 4.7,
+        "category": "Science Fiction",
+        "tags": ["Dystopian", "Political", "Classic"],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "image": "https://i.ibb.co/wLGLDJs/kindpng-7318921.png",
+        "review": "Pride and Prejudice by Jane Austen is a beloved classic of English literature, known for its wit, social commentary, and memorable characters. Set in early 19th-century England, the novel follows the romantic exploits of the spirited Elizabeth Bennet and the enigmatic Mr. Darcy. Through their journey of misunderstandings, misjudgments, and personal growth, Austen explores themes of love, class, and societal expectations. With its sparkling dialogue and timeless appeal, Pride and Prejudice continues to captivate readers around the world, making it a must-read for lovers of romance and literature alike.",
+        "totalPages": 432,
+        "rating": 4.6,
+        "category": "Romance",
+        "tags": ["Classic", "Regency Era", "Social Commentary"],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 4,
+        "bookName": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "image": "https://i.ibb.co/80dLjty/kindpng-4022054-1.png",
+        "review": "The Great Gatsby by F. Scott Fitzgerald is a masterful portrayal of the Jazz Age and the American Dream. Set in the prosperous Long Island of the 1920s, the novel follows the enigmatic Jay Gatsby and his obsession with the beautiful Daisy Buchanan. Through Gatsby's extravagant parties and doomed pursuit of love, Fitzgerald explores themes of wealth, ambition, and the emptiness of materialism. The Great Gatsby is a timeless classic that continues to resonate with readers, offering a poignant commentary on the pursuit of happiness and the corrupting influence of wealth.",
+        "totalPages": 180,
+        "rating": 4.4,
+        "category": "Classic",
+        "tags": ["Jazz Age", "American Dream", "Tragedy"],
+        "publisher": "Charles Scribner's Sons",
+        "yearOfPublishing": 1925
+    },
+    {
+        "bookId": 5,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://i.ibb.co/TL438rC/kindpng-81724-1.png",
+        "review": "The Catcher in the Rye by J.D. Salinger is a coming-of-age novel that has captivated readers for generations. Narrated by the disillusioned teenager Holden Caulfield, the story follows his journey through New York City after being expelled from prep school. Through Holden's cynical observations and quest for authenticity, Salinger explores themes of alienation, innocence, and the search for meaning in a world filled with phoniness. The Catcher in the Rye is a timeless classic that continues to resonate with readers, offering a poignant portrayal of adolescence and the struggles of growing up.",
+        "totalPages": 224,
+        "rating": 4.3,
+        "category": "Coming-of-Age",
+        "tags": ["Teenage Angst", "Alienation", "American Literature"],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 6,
+        "bookName": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "image": "https://i.ibb.co/sw5PDXn/kindpng-2193744-1.png",
+        "review": "The Hobbit by J.R.R. Tolkien is a timeless fantasy adventure that transports readers to the enchanting world of Middle-earth. The story follows Bilbo Baggins, a reluctant hobbit who is swept into an epic quest to reclaim the Lonely Mountain and its treasure from the fearsome dragon Smaug. Along the way, Bilbo encounters a colorful cast of characters, including Gandalf the wizard and a band of dwarves led by Thorin Oakenshield. Through Bilbo's journey of courage and discovery, Tolkien weaves a rich tapestry of magic, heroism, and friendship. The Hobbit is a beloved classic that continues to captivate readers of all ages, inspiring generations with its timeless tale of adventure and wonder.",
+        "totalPages": 310,
+        "rating": 4.8,
+        "category": "Fantasy",
+        "tags": ["Adventure", "Quest", "Middle-earth"],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]
