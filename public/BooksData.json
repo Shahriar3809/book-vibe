@@ -3,12 +3,12 @@
         "bookId": 1,
         "bookName": "To Kill a Mockingbird",
         "author": "Harper Lee",
-        "image": "https://i.ibb.co/R0jt2Zm/pngwing-1.png",
+        "image": "https://i.ibb.co/SmKCwZP/pngwing-1-1.png",
         "review": "To Kill a Mockingbird is a timeless classic that explores important themes such as racial injustice, morality, and the loss of innocence. Set in the fictional town of Maycomb, Alabama, during the Great Depression, the story follows Scout Finch, a young girl growing up in the segregated Southern United States. Through Scout's eyes, we witness her father, Atticus Finch, defending a black man falsely accused of raping a white woman. The novel's poignant narrative challenges readers to confront societal prejudices and encourages empathy and understanding. With its unforgettable characters and powerful message, To Kill a Mockingbird remains a must-read for readers of all ages.",
         "totalPages": 281,
         "rating": 4.5,
         "category": "Fiction",
-        "tags": ["Classics", "Social Issues", "Legal Drama"],
+        "tags": ["Classics", "Social Issues"],
         "publisher": "J. B. Lippincott & Co.",
         "yearOfPublishing": 1960
     },
@@ -21,7 +21,7 @@
         "totalPages": 328,
         "rating": 4.7,
         "category": "Science Fiction",
-        "tags": ["Dystopian", "Political", "Classic"],
+        "tags": ["Dystopian", "Political"],
         "publisher": "Secker & Warburg",
         "yearOfPublishing": 1949
     },
@@ -34,7 +34,7 @@
         "totalPages": 432,
         "rating": 4.6,
         "category": "Romance",
-        "tags": ["Classic", "Regency Era", "Social Commentary"],
+        "tags": ["Classic", "Regency Era"],
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
     },
@@ -47,7 +47,7 @@
         "totalPages": 180,
         "rating": 4.4,
         "category": "Classic",
-        "tags": ["Jazz Age", "American Dream", "Tragedy"],
+        "tags": ["Jazz Age", "American Dream"],
         "publisher": "Charles Scribner's Sons",
         "yearOfPublishing": 1925
     },
@@ -60,7 +60,7 @@
         "totalPages": 224,
         "rating": 4.3,
         "category": "Coming-of-Age",
-        "tags": ["Teenage Angst", "Alienation", "American Literature"],
+        "tags": ["Teenage Angst", "Alienation"],
         "publisher": "Little, Brown and Company",
         "yearOfPublishing": 1951
     },
@@ -73,7 +73,7 @@
         "totalPages": 310,
         "rating": 4.8,
         "category": "Fantasy",
-        "tags": ["Adventure", "Quest", "Middle-earth"],
+        "tags": ["Adventure", "Quest"],
         "publisher": "George Allen & Unwin",
         "yearOfPublishing": 1937
     }
