@@ -41,11 +41,11 @@ const handleWishlist = (singleItem) => {
 }
 
     return (
-      <div className="card card-side bg-base-100 max-h-[650px] shadow-xl">
-        <figure className="w-1/2">
-          <img className="p-7" src={image} alt="Movie" />
+      <div className="grid md:grid-cols-2 card-side bg-base-100 md:max-h-[650px] shadow-xl">
+        <figure className=" md:h-[650px]">
+          <img className="p-5 h-full w-11/12" src={image} alt="Movie" />
         </figure>
-        <div className=" w-1/2 space-y-2 p-4">
+        <div className="  space-y-2 p-4">
           <h2 className="card-title text-3xl font-bold">{bookName}</h2>
           <p className="font-bold text-xl">By: {author}</p>
           <hr />

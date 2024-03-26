@@ -11,6 +11,9 @@ import ErrorPage from './Pages/ErrorPage';
 import Details from './Pages/Details';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AboutUs from './Pages/Contact';
+import Upcoming from './Pages/Upcoming';
+import Contact from './Pages/Contact';
 
 const router = createBrowserRouter([
   {
@@ -34,6 +37,14 @@ const router = createBrowserRouter([
         path: "/bookDetails/:bookId",
         element: <Details></Details>,
         loader: () => fetch("/BooksData.json"),
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
+      {
+        path: "/upComing",
+        element: <Upcoming></Upcoming>
       },
     ],
   },

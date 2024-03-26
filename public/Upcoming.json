@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "bookName": "To Kill a Mockingbird",
+        "image": "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-8a8430b5--Books5_1200x.jpg?v=1620061376",
+        "author": "Harper Lee",
+        "publisher": "J. B. Lippincott & Co."
+    },
+    {
+        "id": 2,
+        "bookName": "1984",
+        "image": "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-db636e27--Books23_1200x.jpg?v=1620061505",
+        "author": "George Orwell",
+        "publisher": "Secker & Warburg"
+    },
+    {
+        "id": 3,
+        "bookName": "Pride and Prejudice",
+        "image": "https://cdn.shopify.com/s/files/1/0070/1884/0133/t/8/assets/pf-71b40b91--Books_1200x.jpg?v=1620061288",
+        "author": "Jane Austen",
+        "publisher": "T. Egerton, Whitehall"
+    },
+    {
+        "id": 4,
+        "bookName": "The Great Gatsby",
+        "image": "https://i0.wp.com/www.themarginalian.org/wp-content/uploads/2012/01/topten.jpg?w=680&ssl=1",
+        "author": "F. Scott Fitzgerald",
+        "publisher": "Charles Scribner's Sons"
+    },
+    {
+        "id": 5,
+        "bookName": "The Catcher in the Rye",
+        "image": "https://www.publishersweekly.com/cover/9780735211209?w=204",
+        "author": "J.D. Salinger",
+        "publisher": "Little, Brown and Company"
+    }
+]

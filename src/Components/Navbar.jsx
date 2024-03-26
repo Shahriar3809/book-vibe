@@ -108,6 +108,30 @@ const Navbar = () => {
                 Pages to Read
               </NavLink>
             </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? " px-5 py-4  rounded-lg text-white font-bold text-base bg-green-500"
+                    : ""
+                }
+                to="/contact"
+              >
+                Contact
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive
+                    ? " px-5 py-4  rounded-lg text-white font-bold text-base bg-green-500"
+                    : ""
+                }
+                to="/upComing"
+              >
+                Upcoming
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="navbar-end flex gap-3">

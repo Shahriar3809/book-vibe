@@ -1,20 +1,22 @@
 import { useEffect, useState } from "react";
-import { getReadBooks } from "../Utils/LocalStorage";
 import ReadBook from "./ReadBook";
+
+import { getReadBooks } from "../Utils/LocalStorage";
 
 
 const ReadBooksItem = () => {
 
-    const [reads, setReads] = useState([])
+
+
+    const [data, setData] = useState([])
     useEffect(()=> {
-        setReads(getReadBooks())
-    }, [])
+      setData(getReadBooks());
+    },[])
 
    
-    // console.log(reads)
     return (
       <div className="space-y-8 mt-10 p-5">
-        {reads.map((item) => (
+        {data.map((item) => (
           <ReadBook key={item.bookId} item={item}>
             Hello
           </ReadBook>
