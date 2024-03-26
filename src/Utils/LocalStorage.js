@@ -35,7 +35,8 @@ export const saveToLocalStorage = (data) => {
 }
 
 
-// export const checkRead = (data) => {
-//     const getItem = JSON.parse(localStorage.getItem("readBook"))
-//     const existData = getItem.find((item)=> item.bookId == data.bookId);
-// }
+
+export const getReadBooks = () => {
+    const getItem = JSON.parse(localStorage.getItem('readBook')) || [];
+    return getItem;
+}
