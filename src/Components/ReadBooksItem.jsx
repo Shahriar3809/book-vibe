@@ -13,7 +13,7 @@ const ReadBooksItem = () => {
    
     // console.log(reads)
     return (
-      <div className="space-y-8 mt-10">
+      <div className="space-y-8 mt-10 p-5">
         {reads.map((item) => (
           <ReadBook key={item.bookId} item={item}>
             Hello

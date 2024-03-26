@@ -61,7 +61,7 @@ const Navbar = () => {
                   }
                   to="/PageToRead"
                 >
-                  Page to Read
+                  Pages to Read
                 </NavLink>
               </li>
             </ul>
@@ -105,16 +105,16 @@ const Navbar = () => {
                 }
                 to="/PageToRead"
               >
-                Page to Read
+                Pages to Read
               </NavLink>
             </li>
           </ul>
         </div>
         <div className="navbar-end flex gap-3">
-          <button className="px-5 py-4 rounded-lg bg-green-500 text-white font-bold">
+          <button className="md:px-5 p-2  md:py-4 rounded-lg bg-green-500 text-white font-bold">
             Sign In
           </button>
-          <button className="px-5 py-4 rounded-lg bg-violet-500 text-white font-bold">
+          <button className="md:px-5 p-2 md:py-4 rounded-lg bg-violet-500 text-white font-bold">
             Sign Up
           </button>
         </div>

@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
-      <div className="h-[550px] bg-base-300 rounded-lg flex gap-5">
-        <div className="w-3/5 p-16 space-y-8 flex flex-col justify-center gap-10 ml-5">
-          <h1 className="text-6xl font-bold">
+      <div className="md:h-[550px] bg-base-300 rounded-lg flex gap-5 flex-col md:flex-row">
+        <div className="w-3/5 p-5 md:p-16 md:space-y-8 flex flex-col justify-center md:gap-10 ml-5">
+          <h1 className="md:text-6xl text-3xl font-bold">
             Books to freshen up your bookshelf
           </h1>
           <Link to="/listedBooks">

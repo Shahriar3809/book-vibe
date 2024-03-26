@@ -13,7 +13,7 @@ const WishlistItem = () => {
 console.log(wishList)
    
     return (
-      <div className="space-y-8 mt-10">
+      <div className="space-y-8 mt-10 p-5">
         {wishList.map((item) => (
           <WishItem key={item.bookId} item={item}>
             Hello

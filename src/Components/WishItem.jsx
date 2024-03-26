@@ -19,14 +19,14 @@ const WishItem = ({ item }) => {
       publisher,
     } = item;
   return (
-    <div className="card lg:card-side bg-base-100 shadow-xl">
+    <div className="card lg:card-side bg-base-100 shadow-xl border-2 ">
       <figure className="w-1/3 bg-base-200 m-5 rounded-lg">
         <img className="p-5 w-72" src={image} alt="Album" />
       </figure>
-      <div className="card-body space-y-8">
+      <div className="card-body md:space-y-8">
         <h1 className="text-6xl font-bold">{bookName}</h1>
         <h6 className="text-xl font-bold">By: {author}</h6>
-        <div className="flex gap-5">
+        <div className="flex flex-col md:flex-row gap-5">
           <h2 className="mr-3 font-semibold text-xl">Tags:</h2>
           <div className="flex gap-3 ">
             {tags.map((item, idx) => (
@@ -46,7 +46,7 @@ const WishItem = ({ item }) => {
             </h5>
           </div>
         </div>
-        <div className="flex gap-8">
+        <div className="flex flex-col md:flex-row gap-8">
           <div>
             <h6 className="flex items-center gap-3 text-xl">
               {" "}
@@ -63,7 +63,7 @@ const WishItem = ({ item }) => {
           </div>
         </div>
         <hr />
-        <div className="flex gap-3 font-bold">
+        <div className="flex flex-col md:flex-row gap-3 font-bold">
           <h2 className="bg-blue-200 p-4 rounded-full px-6">
             Category: {category}
           </h2>
