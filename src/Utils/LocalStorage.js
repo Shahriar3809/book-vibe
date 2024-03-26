@@ -40,3 +40,12 @@ export const getReadBooks = () => {
     const getItem = JSON.parse(localStorage.getItem('readBook')) || [];
     return getItem;
 }
+
+
+
+
+
+export const wishListBooks = () => {
+    const getItem = JSON.parse(localStorage.getItem('wishList')) || [];
+    return getItem;
+}

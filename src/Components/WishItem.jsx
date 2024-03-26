@@ -1,25 +1,23 @@
 /* eslint-disable react/prop-types */
-import { FaLocationDot } from "react-icons/fa6";
-import { IoPeople } from "react-icons/io5";
-import { TbPageBreak } from "react-icons/tb";
 import { Link } from "react-router-dom";
 
+import { IoPeople } from "react-icons/io5";
+import { FaLocationDot } from "react-icons/fa6";
+import { TbPageBreak } from "react-icons/tb";
 
-
-const ReadBook = ({item}) => {
-  const {
-    bookId,
-    image,
-    bookName,
-    category,
-    author,
-    tags,
-    totalPages,
-    yearOfPublishing,
-    rating,
-    publisher,
-  } = item;
-//   console.log(item);
+const WishItem = ({ item }) => {
+    const {
+      bookId,
+      image,
+      bookName,
+      category,
+      author,
+      tags,
+      totalPages,
+      yearOfPublishing,
+      rating,
+      publisher,
+    } = item;
   return (
     <div className="card lg:card-side bg-base-100 shadow-xl">
       <figure className="w-1/3 bg-base-200 m-5 rounded-lg">
@@ -83,6 +81,4 @@ const ReadBook = ({item}) => {
   );
 };
 
-
-
-export default ReadBook;
+export default WishItem;
