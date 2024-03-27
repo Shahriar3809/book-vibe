@@ -24,7 +24,7 @@ const Contact = () => {
             <div>
               <h2 className="font-bold">Office Address:</h2>
               <p>Pink Road, 34/2</p>
-              <p>Maijdee, Noakhali, Bangladesh.</p>
+              <p>Stack Road, Canada</p>
             </div>
             <br />
             <div>

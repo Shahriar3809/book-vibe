@@ -11,7 +11,7 @@ import ErrorPage from './Pages/ErrorPage';
 import Details from './Pages/Details';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import AboutUs from './Pages/Contact';
+
 import Upcoming from './Pages/Upcoming';
 import Contact from './Pages/Contact';
 

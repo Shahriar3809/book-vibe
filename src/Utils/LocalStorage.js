@@ -10,7 +10,7 @@ export const addToLocalStorage = (data) => {
         localStorage.setItem('readBook', JSON.stringify(getItem))
         
     } else {
-        toast.warn("You Have Already Read This Book")
+        toast.warn("You Have Already Added This Book")
     }
 }
 
