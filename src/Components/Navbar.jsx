@@ -1,4 +1,4 @@
-import {  NavLink } from "react-router-dom";
+import {  Link, NavLink } from "react-router-dom";
 
 
 const Navbar = () => {
@@ -90,7 +90,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="text-3xl text-green-600 font-bold">Book Vibe</a>
+          <Link to='/' className="text-3xl text-green-600 font-bold">Book Vibe</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="flex font-semibold gap-8">

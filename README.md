@@ -4,9 +4,9 @@
 
 ## Features and Characteristics:
 
-- **Most Famous Book Available**: Discover the most famous and influential books currently available on Bookish Haven, curated based on popularity, critical acclaim, and cultural significance..
+- **Most Famous Book Available**: Discover the most famous and influential books currently available on Book Vibe, curated based on popularity, critical acclaim, and cultural significance..
 
-- **Detailed Book Reviews**: Each book on Bookish Haven comes with a comprehensive review, providing readers with insights into the plot, characters, themes, and overall reading experience.
+- **Detailed Book Reviews**: Each book on Book Vibes comes with a comprehensive review, providing readers with insights into the plot, characters, themes, and overall reading experience.
 
 - **Read List**: Keep track of the books you've read by adding them to your Read List. Marking a book as read allows you to easily reference it in the future and share your reading accomplishments with others..
 
