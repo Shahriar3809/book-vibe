@@ -1,4 +1,4 @@
-# BOOk Vibe
+# Book Vibe
 
 **Live Site URL:** [https://b9a8-shahriar.netlify.app/](https://b9a8-shahriar.netlify.app/)
 

@@ -1,22 +1,21 @@
-import { useEffect, useState } from "react";
-import { wishListBooks } from "../Utils/LocalStorage";
+// import { useEffect, useState } from "react";
+// import { wishListBooks } from "../Utils/LocalStorage";
+import { useContext } from "react";
 import WishItem from "./WishItem";
+import { WishListContext } from "./ListedBooks";
 
 
 const WishlistItem = () => {
   
-  // wishListBooks;
-     const [wishList, setWishList] = useState([]);
-     useEffect(() => {
-       setWishList(wishListBooks());
-     }, []);
-console.log(wishList)
+ const wishData = useContext(WishListContext)
+     
+
    
     return (
       <div className="space-y-8 mt-10 p-5">
-        {wishList.map((item) => (
+        {wishData && wishData.map((item) => (
           <WishItem key={item.bookId} item={item}>
-            Hello
+            
           </WishItem>
         ))}
       </div>

@@ -25,7 +25,7 @@ const Details = () => {
       category,
       author,
       review,
-    
+      tags,
       totalPages,
       yearOfPublishing,
       rating,
@@ -58,10 +58,16 @@ const handleWishlist = (singleItem) => {
           </div>
           <div className="flex gap-5 text-xl">
             <p className="font-bold">Tag: </p>
-            <p className="bg-green-100 text-green-700 font-semibold  text-center rounded-full px-5"
-            >#Classics</p>
-            <p className="bg-green-100 text-green-700 font-semibold  text-center rounded-full px-5"
-            >#Adventure</p>
+            {tags &&
+              tags.map((item, index) => (
+                <p
+                  className="bg-green-100 text-green-700 font-semibold  text-center rounded-full px-5"
+                  key={index}
+                >
+                  #{item}
+                </p>
+              ))}
+            
           </div>
           <hr />
           <div className="text-xl font-semibold space-y-1">
